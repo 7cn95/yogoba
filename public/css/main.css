@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "nabufont";
+    src: url("../font/newfont.ttf");
+}
+@font-face {
+    font-family: "enghand";
+    src: url("../font/DancingScript-Medium.ttf");
+}
+@font-face {
+    font-family: "arab";
+    src: url("../font/Gulzar-Regular.ttf");
+}
+body{
+    font-family: 'nabufont';
+}
