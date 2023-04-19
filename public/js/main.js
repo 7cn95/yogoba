@@ -16,9 +16,9 @@ c1.addEventListener('click',showcp1);
 function onToggleMenu(e){
     e.name = e.name === 'menu' ? 'close' : 'menu';  
     if(navLinks.classList.contains("top-[-1000%]")){
-        navLinks.classList.replace("top-[-1000%]",'top-[65px]');
+        navLinks.classList.replace("top-[-1000%]",'top-[100%]');
     }else{
-        navLinks.classList.replace('top-[65px]',"top-[-1000%]");
+        navLinks.classList.replace('top-[100%]',"top-[-1000%]");
     }
 }
 

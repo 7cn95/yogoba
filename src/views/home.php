@@ -1,3 +1,4 @@
+<?php include_once "./header.php"; ?>
 <main >
     <div class="relative h-[50rem]">
         <div class="absolute w-screen h-[50rem] bg-[url('../../public/img/main.jpg')] bg-cover brightness-50"></div>
@@ -19,14 +20,14 @@
                 <p class="text-[1.3rem] w-32">اصنع خطتك الخاصة للمارسة اليوغا</p>
                 <p class="text-[3rem] text-gray-500">1</p>
             </div>
-            <img src="./public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
+            <img src="../../public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
         </div>
         <div class="absolute w-[18rem] h-[19rem] top-[45%] md:top-[-12%] left-[15%] md:left-[30%] shadow-lg rounded-lg space-x-2 bg-slate-100  flex flex-col justify-center items-center">
             <div class="flex flex-row gap-8 justify-between space-x-5 mt-6">
                 <p class="text-[1.3rem] w-32">اصنع خطتك الخاصة للمارسة اليوغا</p>
                 <p class="text-[3rem] text-gray-500">2</p>
             </div>
-            <img src="./public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
+            <img src="../../public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
         </div>
         <div class="hidden absolute w-[36rem] h-[19rem] top-[-12%] left-[50%] shadow-lg rounded-lg space-x-2 bg-[#feaea3]  md:flex flex-row-reverse items-center justify-around">
             <div class="flex flex-col justify-between h-full">
@@ -40,7 +41,7 @@
                 </div>
             </div>
             
-            <img src="./public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
+            <img src="../../public/img/c1.webp" class=" w-[15rem] h-[8rem] m-6 rounded-2xl " alt="">
         </div>
     </section>
 
@@ -88,7 +89,7 @@
             <?php 
                 for($i=0;$i<3;$i++){
                     echo '<div class="shadow-2xl bg-white p-12 rounded-3xl min-h-full min-w-[25rem] max-w-[25rem]  mb-2 ">
-                <img src="./public/img/c1.webp" alt="" class="">
+                <img src="../../public/img/c1.webp" alt="" class="">
                 <p class="m-2 overflow-y-auto max-h-24 text-[1.5rem]">Lorem ipsum dolor sit </p>
                 <p class="m-2 overflow-y-scroll max-h-24 text-gray-600 text-[0.7rem]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla nesciunt maiores voluptate, totam ipsum repudiandae dignissimos obcaecati tempora molestiae quas, sapiente possimus quis quisquam dolorum magnam sint. Rerum, dolorem eum.</p>
                 
@@ -111,17 +112,17 @@
         <div class=" my-[8rem] text-center "><p class="text-[3rem]">رأي المشتركين حولنا</p> </div>
         <div class="">
             <div class="cp1 relative  text-center shadow-lg min-h-[20rem] md:min-w-[40rem] md:max-w-[40rem] px-[4rem]">
-                <img src="./public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
+                <img src="../../public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
                 <p class="my-[5rem] text-gray-800 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci magni facilis mollitia facere suscipit quam ipsam, vel, expedita dolorem sequi reprehenderit magnam debitis explicabo? Explicabo incidunt facere amet recusandae?</p>
                 <p class="text-[0.9rem ]">عباس حاتم</p>
             </div>
             <div class="cp2 hidden relative  text-center shadow-lg min-h-[20rem] md:min-w-[40rem] md:max-w-[40rem] px-[4rem]">
-                <img src="./public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
+                <img src="../../public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
                 <p class="my-[5rem] text-gray-800 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci magni facilis mollitia facere suscipit quam ipsam, vel, expedita dolorem sequi reprehenderit magnam debitis explicabo? Explicabo incidunt facere amet recusandae?</p>
                 <p class="text-[0.9rem ]">عباس </p>
             </div>
             <div class=" cp3 hidden relative  text-center shadow-lg min-h-[20rem] md:min-w-[40rem] md:max-w-[40rem] px-[4rem]">
-                <img src="./public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
+                <img src="../../public/img/c1.webp" alt="" class=" absolute rounded-full w-[120px] top-[-35%] left-[40%]">
                 <p class="my-[5rem] text-gray-800 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum adipisci magni facilis mollitia facere suscipit quam ipsam, vel, expedita dolorem sequi reprehenderit magnam debitis explicabo? Explicabo incidunt facere amet recusandae?</p>
                 <p class="text-[0.9rem ]">عباس حاتم</p>
             </div>
@@ -135,3 +136,4 @@
     </section>
     
 </main>
+<?php include_once "./footer.php"; ?>

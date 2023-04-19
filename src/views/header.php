@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/css/output.css">
-    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="../../public/css/output.css">
+    <link rel="stylesheet" href="../../public/css/main.css">
     
     <!-- FONTS -->
     
@@ -16,16 +16,16 @@
     <header class="bg-white pt-3 pb-3 shadow-lg relative z-[2]">
         <nav class="flex justify-between items-center w-[92%] mx-auto ">
             <div class="h-12">
-                <img class="w-[160px] text-center cursor-pointer" src="./public/img/yogoba.png" alt="...">
+                <img class="w-[160px] text-center cursor-pointer" src="../../public/img/yogoba.png" alt="...">
             </div>
             <div
                 class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-1000%] md:w-auto  w-full flex items-center px-5 ">
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
                     <li>
-                        <a class="hover:text-[#ff4848]" href="#">الرئيسية</a>
+                        <a class="hover:text-[#ff4848]" href="/php/yogoba/">الرئيسية</a>
                     </li>
                     <li>
-                        <a class="hover:text-[#ff4848]" href="#">الدورات</a>
+                        <a class="hover:text-[#ff4848]" href="./courses.php">الدورات</a>
                     </li>
                     <li>
                         <a class="hover:text-[#ff4848]" href="#">العلاج الطبيعي</a>
