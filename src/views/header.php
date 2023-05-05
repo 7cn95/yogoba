@@ -39,7 +39,13 @@
                 </ul>
             </div>
             <div class="flex items-center gap-6">
-                <button class="bg-[#ff4848] text-white px-5 py-2 rounded-full hover:bg-[#f91d1d] hover:outline-1 hover:outline hover:outline-[#333]">تسجيل دخول</button>
+                <?php 
+                if(!isset($_COOKIE['user'])){
+                    echo '<button class="bg-[#ff4848] text-white px-5 py-2 rounded-full hover:bg-[#f91d1d] hover:outline-1 hover:outline hover:outline-[#333]"><a href="/php/yogoba/src/views/login.php">تسجيل دخول</a></button>';
+                }else{
+                    echo '<button class="text-[#ff4848] px-5 py-2 rounded-full hover:outline-1 hover:outline hover:outline-[#333]"><a href="/php/yogoba/src/controllers/userController.php?logout=true">تسجيل خروج</a></button>';
+                }
+                ?>
                 <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
             </div>
     </header>
